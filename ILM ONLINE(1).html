@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ILM ONLINE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="ILMONLINE.css">{}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1 align="center"><span>ILM ONLINE</span></h1>
+    <div class="topnav" id="myTopnav">
+        <a  href="#Home">Home</a>
+        <a class="active" href="#Q$A">Q$A</a>
+        <a  onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="question">Ask Question</a>
+        <a href="#Know Islam">Know Islam</a>
+        <a href="About">About</a>
+        <a href="contact">Contact</a>
+     <a href="#Books $ articles">Books and Articles</a>  
+     <a href="Contribute" style="background-color: rgb(219, 113, 32) ;" >Contribute</a>
+     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+    </div>
+    <div id="id01" class="modal">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <form class="modal-content animate" action="sendquestion.html" method="POST">
+        <h3 class="log">Log In</h3>
+        <div class="loginfo">In order to ask a question, you must first log in into your account</div><br><br>
+        <label for="mail"><b>Email</b></label><br>
+        <input type="email" autofocus placeholder="Enter your email" name="mail" required><br>
+        <label for="psw"><b>Password</b></label><br>
+        <input type="password" autocomplete="current-password" placeholder="Enter your password" name="psw" required>
+        <label for="remember"><input type="checkbox" name="remember"  style="margin-bottom: 15px;">Keep me logged in</label>
+        <div id="logindiv"><button type="submit" class="loginbtn" >LOG IN</button></div>
+        <p>If you do not have an account, you can click the button below</p>
+        <div onclick="document.getElementById('id02').style.display='block'" style="width:auto;" class="signupbtn"><b>CREATE NEW ACCOUNT</b></div><br><br><br>
+      </form>
+      <div class="forgotpsw"><p>Can't log in to your account?<a href="#" style="color: rgb(5, 54, 5);">Forgot password?</a> </p></div>
+    </div>
+    <div id="id02" class="modal2">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close2 Modal2">&times;</span>
+      <form class="modal-content animate" action="sendquestion.html" method="POST">
+        <h3 class="log">Create An Account</h3>
+        <div class="loginfo">In order to ask a question, you must first log in into your account</div><br><br>
+        <label for="mail"><b>Email</b></label><br>
+        <input type="email" autofocus placeholder="Enter your email" name="mail" required><br>
+        <label for="psw"><b>Password</b></label><br>
+        <input type="password" autocomplete="new-password" placeholder="Enter your password" name="psw" required>
+        <div id="logindiv"  ><button type="submit" class="loginbtn">CREATE AN ACCOUNT</button></div>
+        <p>If you have an account, log in below</p>
+        <div class="signupbtn"><b>LOG IN</b></div><br><br><br>
+      </form>
+    </div>
+  
+
+     <h2>Ruling on Blood Test and Donation</h2> 
+ 
+<section id="blood"><div>
+<div id="question"><h3 id=bd>Question</h3></div><h4 class="does">Does <em>blood donation and blood test</em> invalidate fast.</h4><br><br><br>
+<div id="answer"><h3>Answer</h3>   <p>Praise be to Allah. <br><br>For blood donation: the more correct view is that blood donation invalidate
+ the fast since it weakens the body. This is based on the Hadith concerning Hijjammah(cupping) invalidates the fast. <strong>
+ The prophet (SAW) said: "The one who cups 
+and  is being cupped have both invalidated their fast" Tirmdhi(no. 774).</strong> Based on 
+this, it is not permitted for a fasting person to donate his blood except out of necessity.</p>
+<p>For Blood test: blood sampling maybe from vein, and they may be from the skin whereby the skin is punctured and a sample is taken from it. Taking a blood sample from the vein or via the skin doesn't invalidate 
+fast based on correct view. Both of these issues are based on the issue of Hijjamah(Cupping), but the amount 
+of blood extracted here is not the same as the amount extracted through Hijjamah, and thus  does not weaken the body.</p></br>
+<p><em>Reference: Contemporary medical related things that invalidate fast by Shayhk Khalid bn Ali</em></p></div></div></section>
+</br></br><br>
+<div id="similarquestions">
+<h3 class="similar">Similar Answers</h3>
+<div class="similar6"><b><a href="#similar6">Does Ear drops and irrigation invalidate fast</a></b></div><br>
+<div class="similar6"><b><a href="#similar6">Does Nasal drops and sprays invalidate fast</a></b></div>
+</div>
+<footer id="footer1">
+<div class="importantblock"><h4 id="Important">Important Links</h4>
+<a href="#about">About us</a>
+<a href="#privacy">Privacy policy</a>
+<a href="#feedback">Send us Feedback</a>
+</div>
+<div class="shiftcontact2"><div id="shiftcontact">
+    <h4 id="Contacts">Contact us</h4>
+<a href="tel:08131509225" class="fa fa-phone"></a>
+<a href="@AlhazanM" class="fa fa-twitter"></a>
+<a href="https://www.facebook.com/alhazan.mubarak" class="fa fa-facebook"></a>
+<a href="mailto:olajuwonmubarak355@gmail.com" class="fa fa-google"></a>
+<a href="mailto:olajuwonmubarak@yahoo.com" class="fa fa-yahoo"></a> 
+<a href="https://wa.me/2349019193284?text=Hi" class="fa fa-whatsapp"></a>
+</div>
+</div>
+</footer>
+<p id="right">All rights reserved for ILM ONLINE© <span id="copyright"></span></p>
+<script src="ILMONLINE.JS"></script>
+</body></html> 
